@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    height: 100%;    
+    font-family: 'Roboto', sans-serif;
+}
+.hero{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%),
+                      url("donation9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.hero-heading{
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-size: 48px;
+}
+.hero-description{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+#donate-heading{
+    font-size: 48px;
+    padding: 128px 0px 0px 0px;
+}
+.amount-container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+.amount-iteam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 16px;
+    font-size: 32px;
+    height: 128px;
+    width: 128px;
+    background-color: aliceblue;
+}
+.hero-button{
+    background-color: #de0c78;  
+    border: 0ch;  
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+}
+.donate-page{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 256px;
+
+}
+.donate-description{
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+}
+
+.donate-button{
+    background-color: #de0c78;  
+    border: 0ch;  
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+#amount{
+    font-size: 16px;
+    width: 60vw;
+    padding-bottom: 8px;
+    text-align: center;
+    outline: 0;
+    border-width: 0 0 2px;
+}
